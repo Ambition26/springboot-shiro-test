@@ -1,9 +1,7 @@
 package com.hui.mapper;
 
 import com.hui.pojo.Account;
-import com.hui.pojo.AccountPerm;
 import com.hui.pojo.Role;
-import org.springframework.stereotype.Repository;
 
 import java.util.Set;
 
