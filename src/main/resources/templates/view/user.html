@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+user
+<a href="user/find" th:href="@{user/find}" shiro:hasPermission="user:find">查看学生信息</a>
+<a href="user/add" th:href="@{user/add}" shiro:hasPermission="user:add">添加学生信息</a>
+<a href="user/delete" th:href="@{user/delete}" shiro:hasPermission="user:delete">删除学生信息</a>
+<a href="user/update" th:href="@{user/update}" shiro:hasPermission="user:update">修改学生信息</a>
+</body>
+</html>

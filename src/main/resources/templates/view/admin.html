@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+admin
+<h3 th:text="${session.loginUser.username}"></h3>
+<a href="admin/find">查看学生信息</a>
+<a href="admin/add">添加学生信息</a>
+<a href="admin/delete">删除学生信息</a>
+<a href="admin/update">修改学生信息</a>
+
+<a href="logout">logout</a>
+</body>
+</html>
